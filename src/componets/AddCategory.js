@@ -21,7 +21,7 @@ export const AddCategory = ({ setCategories }) => {
     <form onSubmit={ handleSubmit }>
         <input 
         type="text" 
-        placeholder="pelicula/serie/juego/libro favorito"
+        placeholder="Buscar"
         value={ inputValue }
         onChange= { handleInputChange}
 
