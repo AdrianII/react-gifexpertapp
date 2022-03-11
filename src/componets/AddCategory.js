@@ -14,7 +14,7 @@ export const AddCategory = ({ setCategories }) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    if(inputValue.trim().length > 2)
+    if(inputValue.trim().length > 0)
       setCategories( cate => [inputValue])  //setCategories( cate => [inputValue, ...cate]) este codigo original mantenia la busquedas anteriores y solo agregaba una nueva al principio del objeto
   }
   return (
